@@ -58,3 +58,6 @@ Learn more at:
 13. This should automatically lead to downloading the claims data as response_cms.json. Then extract_data.py will filter data
     and make a file static/report.html and show that file in browser.
 15. YOU ARE ALL SET!
+
+**DEBUGGING**
+a. Clear browser history if you are able to login but the data isnt downloading. Instead you get a 404 error
