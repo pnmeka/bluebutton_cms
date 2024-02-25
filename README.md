@@ -12,7 +12,7 @@ Learn more at:
 
     https://bluebutton.cms.gov/
 
-Step 1 - Get Sandbox credentials: 
+**Step 1 - Get Sandbox credentials:** 
 
 1. First go here to set up an free account:
 
@@ -26,12 +26,34 @@ Step 1 - Get Sandbox credentials:
        Callback URLS / Redirect Uris: http://localhost:3015/api/bluebutton/callback/
 4. Save and you should receive a Client ID and Client Secret.
 
-Step 2- Git clone and launch Flask server
+**Step 2- Git clone and launch Flask server**
 
 5. Git clone this repo
 
        git clone https://github.com/pnmeka/bluebutton_cms/
-6. Set up required modules
+
+6. Update the credentials in config file.
+
+        open my_bb2_sdk_conf.json and enter your saved Client ID and secret and save
+       
+7. Set up required modules for your server
 
        pip install -r requirements.txt
 
+8. Launch Flask server
+
+       python3 bbtn.py
+
+9. launch a webbrowser and go to port 3015 by entering the following in addressbar
+
+       localhost:3015
+    
+12. It should automatically take you to oauth login to allow download of claims. Enter the follwoing dummy credentials
+
+        user:BBUser00000
+        pwd:PW00000!
+    Click Login. Once logged in, accept to receive all claims data.
+
+13. This should automatically lead to downloading the claims data as response_cms.json. Then extract_data.py will filter data
+    and make a file static/report.html and show that file in browser.
+15. 
