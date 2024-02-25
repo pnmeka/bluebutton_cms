@@ -47,7 +47,7 @@ Learn more at:
 
 10. launch a webbrowser and go to port 3015 by entering the following in addressbar
 
-       localhost:3015
+           localhost:3015
     
 12. It should automatically take you to oauth login to allow download of claims. Enter the follwoing dummy credentials
 
