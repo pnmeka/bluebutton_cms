@@ -31,20 +31,21 @@ Learn more at:
 5. Git clone this repo
 
        git clone https://github.com/pnmeka/bluebutton_cms/
+       cd bluebutton_cms
 
-6. Update the credentials in config file.
+7. Update the credentials in config file.
 
         open my_bb2_sdk_conf.json and enter your saved Client ID and secret and save
        
-7. Set up required modules for your server
+8. Set up required modules for your server
 
        pip install -r requirements.txt
 
-8. Launch Flask server
+9. Launch Flask server
 
        python3 bbtn.py
 
-9. launch a webbrowser and go to port 3015 by entering the following in addressbar
+10. launch a webbrowser and go to port 3015 by entering the following in addressbar
 
        localhost:3015
     
