@@ -1,5 +1,5 @@
-# bluebutton_cms
-
+**# bluebutton_cms sandbox
+**
 This repo allows you to access claims data of a medicare subscriber and to filter data to allow understanding it.
 
 Flask server -> Oauth login -> collect claims via API -> save data -> filter data -> show as html
@@ -56,4 +56,4 @@ Learn more at:
 
 13. This should automatically lead to downloading the claims data as response_cms.json. Then extract_data.py will filter data
     and make a file static/report.html and show that file in browser.
-15. 
+15. YOU ARE ALL SET!
